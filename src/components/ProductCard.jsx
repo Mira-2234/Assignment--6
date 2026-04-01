@@ -40,7 +40,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         {product.description}
       </p>
 
-      {/* Price */}
+      {/* price */}
       <div className="text-[1.3rem] font-extrabold text-gray-900">
         ${product.price}
         <span className="text-sm font-normal text-gray-500">
