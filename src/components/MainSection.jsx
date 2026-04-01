@@ -95,11 +95,7 @@ const MainSection = ({ cart, onAddToCart, onRemove, onCheckout }) => {
                   </p>
                   <button
                     onClick={() => setView("products")}
-                    className="bg-purple-600 hover:bg-purple-700
-                               text-white border-none rounded-full
-                               px-6 py-2.5 text-sm font-semibold
-                               cursor-pointer font-[inherit]
-                               transition-colors"
+                    className="bg-purple-600 hover:bg-purple-700  text-white border-none rounded-full px-6 py-2.5 text-sm font-semibold cursor-pointer font-[inherit] transition-colors"
                   >
                     Browse Products
                   </button>
@@ -122,8 +118,7 @@ const MainSection = ({ cart, onAddToCart, onRemove, onCheckout }) => {
                     <span className="text-sm text-gray-500">
                       Total:
                     </span>
-                    <span className="text-xl font-extrabold
-                                     text-gray-900">
+                    <span className="text-xl font-extrabold text-gray-900">
                       ${total}
                     </span>
                   </div>
