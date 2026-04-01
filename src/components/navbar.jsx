@@ -67,15 +67,13 @@ const Navbar = ({ cartCount, onCartClick }) => {
             </div>
 
             {/* Login */}
-            <h2 className="font-semibold text-[#101727] 
-                           cursor-pointer hover:text-purple-600">
+            <h2 className="font-semibold text-[#101727] cursor-pointer hover:text-purple-600">
               Login
             </h2>
 
             {/* Get Started */}
             <button className="btn rounded-full bg-gradient-to-r 
-                               from-[#4F39F6] to-[#9514FA] text-white 
-                               font-medium hover:opacity-90 border-none">
+                               from-[#4F39F6] to-[#9514FA] text-white font-medium hover:opacity-90 border-none">
               Get Started
             </button>
 

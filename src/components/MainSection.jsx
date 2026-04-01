@@ -11,9 +11,8 @@ const MainSection = ({ cart, onAddToCart, onRemove, onCheckout }) => {
     <section id="products" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-8">
 
-        {/* Heading */}
-        <h2 className="text-[2rem] font-extrabold text-center
-                       text-gray-900 tracking-tight">
+    
+        <h2 className="text-[2rem] font-extrabold text-center text-gray-900 tracking-tight">
           Premium Digital Tools
         </h2>
 

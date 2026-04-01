@@ -80,8 +80,7 @@ const Pricing = () => {
                 className={`w-full py-[11px] rounded-full font-semibold 
                             text-sm cursor-pointer transition-all 
                             font-[inherit]
-                            ${plan.featured
-                              ? "bg-white text-purple-600 border-none hover:bg-purple-50"
+                            ${plan.featured ? "bg-white text-purple-600 border-none hover:bg-purple-50"
                               : " text-white bg-purple-600 border-[1.5px] border-purple-600 hover:bg-purple-50"
                             }`}
               >
