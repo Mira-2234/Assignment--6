@@ -16,10 +16,8 @@ const CartDropdown = ({ cart, onClose, onRemove, onCheckout }) => {
 
   return (
     <div className="fixed top-16 right-6 " ref={ref}>
-      <div className="w-[400px] bg-white border-[1.5px] border-gray-200 
-                      rounded-2xl overflow-hidden
-                      shadow-[0_20px_60px_rgba(0,0,0,0.15)]
-                      animate-[dropIn_0.2s_ease]">
+      <div className="w-[400px] bg-white border-[1.5px] border-gray-200 rounded-2xl overflow-hidden
+                      shadow-[0_20px_60px_rgba(0,0,0,0.15)] animate-[dropIn_0.2s_ease]">
 
         
         <style>{`
