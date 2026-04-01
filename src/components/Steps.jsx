@@ -37,7 +37,7 @@ const Steps = () => {
           Start using premium digital tools in minutes, not hours.
         </p>
 
-        {/* Cards */}
+        {/* Card*/}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
           {steps.map(({ num, icon, title, desc }) => (
             <div key={num}
@@ -52,7 +52,7 @@ const Steps = () => {
                 {num}
               </div>
 
-              {/* Icon Circle — image দিয়ে */}
+              {/* Icon Circle*/}
               <div className="w-[72px] h-[72px] bg-purple-50 rounded-full
                               mx-auto mb-5 flex items-center
                               justify-center">
