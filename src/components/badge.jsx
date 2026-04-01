@@ -1,6 +1,6 @@
 import React from 'react';
 
-const badge = () => {
+const Badge = () => {
     return (
         <div className='bg-gradient-to-r from-indigo-600 to-purple-600 py-10 mb-5 px-25'>
             <div className='flex justify-around items-center'>
@@ -14,7 +14,7 @@ const badge = () => {
 
                 <div className='text-center text-white'>
                     <h1 className='text-4xl font-extrabold'>200+</h1>
-                    <p className='text-[#FFFFFF]]mt-2'>Premium Tools</p>
+                    <p className='text-[#FFFFFF] mt-2'>Premium Tools</p>
                 </div>
 
                <div className='h-12 w-[2px] bg-white opacity-50'></div>
@@ -30,4 +30,4 @@ const badge = () => {
     );
 };
 
-export default badge;
+export default Badge;
