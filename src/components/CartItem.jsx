@@ -11,7 +11,7 @@ const CartItem = ({ item, onRemove }) => {
         {item.icon}
       </div>
 
-      {/* Name + Price */}
+    
       <div className="flex-1">
         <div className="font-semibold text-sm text-gray-900">
           {item.name}

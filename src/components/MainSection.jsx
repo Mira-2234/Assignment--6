@@ -24,7 +24,7 @@ const MainSection = ({ cart, onAddToCart, onRemove, onCheckout }) => {
           products designed to boost your productivity and creativity.
         </p>
 
-        {/* ── Toggle Buttons ── */}
+        {/*Toggle Buttons*/}
         <div className="flex justify-center gap-2 mt-7 mb-9">
 
           {/* Products Button */}
@@ -57,7 +57,7 @@ const MainSection = ({ cart, onAddToCart, onRemove, onCheckout }) => {
 
         </div>
 
-        {/* ── Products Grid ── */}
+        
         {view === "products" && (
           <div className="grid grid-cols-1 sm:grid-cols-2
                           lg:grid-cols-3 gap-5">
@@ -71,7 +71,7 @@ const MainSection = ({ cart, onAddToCart, onRemove, onCheckout }) => {
           </div>
         )}
 
-        {/* ── Cart View ── */}
+        
         {view === "cart" && (
           <div className="max-w-[720px] mx-auto">
             <div className="bg-white border-[1.5px] border-gray-200

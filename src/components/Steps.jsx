@@ -9,7 +9,7 @@ const steps = [
   },
   {
     num:   "02",
-    icon:  "/src/assets/package.png",  // ← package.png নেই তাই rocket.png
+    icon:  "/src/assets/package.png",  
     title: "Choose Products",
     desc:  "Browse our catalog and select the tools that fit your needs.",
   },
@@ -44,7 +44,7 @@ const Steps = () => {
                  className="bg-white rounded-2xl p-10 
                             text-center relative">
 
-              {/* Number Badge — top right */}
+            
               <div className="absolute top-5 right-5 w-[30px] h-[30px]
                               bg-purple-600 text-white rounded-full
                               text-[11px] font-extrabold

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import CartItem from "./CartItem"; // ← CartItem use করছে
+import CartItem from "./CartItem"; 
 
 const CartDropdown = ({ cart, onClose, onRemove, onCheckout }) => {
   const ref = useRef(null);
@@ -44,7 +44,7 @@ const CartDropdown = ({ cart, onClose, onRemove, onCheckout }) => {
           </button>
         </div>
 
-        {/* Cart Items */}
+        
         <div className="max-h-80 overflow-y-auto">
           {cart.length === 0 ? (
             <div className="text-center py-10 text-gray-400">
