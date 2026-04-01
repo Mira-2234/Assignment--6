@@ -13,7 +13,7 @@ const Hero = () => {
                       grid grid-cols-1 lg:grid-cols-2 
                       gap-16 items-center">
 
-        {/* left-side-content*/}
+   
         <div>
 
           {/* badge*/}
